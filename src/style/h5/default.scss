@@ -1,0 +1,24 @@
+body,
+#app {
+  height: 100%;
+  width: 100%;
+}
+html {
+  //inset: 0;
+  //-webkit-text-size-adjust: 100%;
+  min-height: 100vh;
+}
+
+// 适配pc 平板
+@media (min-width: 560px) {
+  html {
+    font-size: 100px;
+
+    body {
+      // 居中显示
+      margin: 0 auto;
+      width: 375px;
+      background-color: var(--background);
+    }
+  }
+}

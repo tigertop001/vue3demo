@@ -1,0 +1,37 @@
+// 基准值
+:root {
+  --safe-top: env(safe-area-inset-top);
+  --safe-bottom: env(safe-area-inset-bottom);
+  --safe-left: env(safe-area-inset-left);
+  --safe-right: env(safe-area-inset-right);
+}
+* {
+  box-sizing: border-box;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+html {
+  font-size: 26.66666666vw;
+  font-weight: 400;
+  //background-color: white;
+  background-color: var(--background);
+  height: 100%;
+  width: 100%;
+  color: var(--text-co1);
+}
+
+// 默认字体大小
+body {
+  font-size: 0.12rem;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  /* Chrome Safari */
+}
